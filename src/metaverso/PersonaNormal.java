@@ -18,7 +18,12 @@ public class PersonaNormal extends Persona
 
     @Override
     public void finalChance(Persona p1, Persona p2) {
+        
+    }
 
+    @Override
+    public String toString() {
+        return "PersonaNormal{" + '}';
     }
  
     

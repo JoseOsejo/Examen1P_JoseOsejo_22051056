@@ -40,4 +40,10 @@ public class PorAccidenteRadioactivo extends Persona
     public void finalChance(Persona p1, Persona p2){
         
     }
+
+    @Override
+    public String toString() {
+        return "PorAccidenteRadioactivo{" + "edadAlMomentoAccidente=" + edadAlMomentoAccidente + ", tipoAccidente=" + tipoAccidente + '}';
+    }
+    
 }

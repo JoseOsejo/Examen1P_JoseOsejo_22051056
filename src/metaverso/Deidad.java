@@ -12,23 +12,42 @@ package metaverso;
 public class Deidad extends Extraterrestre {
 
     
+    private boolean tieneCreyentes;
+    private String religion;
+
+    public Deidad(boolean tieneCreyentes, String religion, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+        this.tieneCreyentes = tieneCreyentes;
+        this.religion = religion;
+    }
+
+    public boolean isTieneCreyentes() {
+        return tieneCreyentes;
+    }
+
+    public void setTieneCreyentes(boolean tieneCreyentes) {
+        this.tieneCreyentes = tieneCreyentes;
+    }
+
+    public String getReligion() {
+        return religion;
+    }
+
+    public void setReligion(String religion) {
+        this.religion = religion;
+    }
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        
     
     @Override
     public void finalChance(Persona p1, Persona p2) {
 
     }
+
+    @Override
+    public String toString() {
+        return "Deidad{" + "tieneCreyentes=" + tieneCreyentes + ", religion=" + religion + '}';
+    }
  
+    
 }

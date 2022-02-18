@@ -5,10 +5,42 @@
  */
 package metaverso;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author jcoq2
  */
-public class Universo {
+public class Universo 
+{
+    private String nombre;
+    private ArrayList<Escuadron>escaudrones;
+
+    public Universo(String nombre, ArrayList<Escuadron> escaudrones) {
+        this.nombre = nombre;
+        this.escaudrones = escaudrones;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public ArrayList<Escuadron> getEscaudrones() {
+        return escaudrones;
+    }
+
+    public void setEscaudrones(ArrayList<Escuadron> escaudrones) {
+        this.escaudrones = escaudrones;
+    }
+
+    @Override
+    public String toString() {
+        return "Universo{" + "nombre=" + nombre + ", escaudrones=" + escaudrones + '}';
+    }
+    
     
 }
