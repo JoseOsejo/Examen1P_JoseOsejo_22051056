@@ -20,7 +20,12 @@ public abstract class Persona
     protected int habilidadFisica;
     protected boolean tieneEscuadron;
 
-    public Persona(String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
+    public Persona(){
+        
+    }
+    
+    
+    public Persona(String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
         this.nombre = nombre;
         this.poder = poder;
         this.debilidad = debilidad;
@@ -28,7 +33,7 @@ public abstract class Persona
         this.fuerza = fuerza;
         this.habilidadMental = habilidadMental;
         this.habilidadFisica = habilidadFisica;
-        this.tieneEscuadron = tieneEscuadron;
+        this.tieneEscuadron = false;
     }
 
     public String getNombre() {

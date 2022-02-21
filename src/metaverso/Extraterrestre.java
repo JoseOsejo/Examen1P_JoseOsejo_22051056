@@ -11,8 +11,8 @@ package metaverso;
  */
 public abstract class Extraterrestre extends Persona{
 
-    public Extraterrestre(String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
-        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+    public Extraterrestre(String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica);
     }
 
     

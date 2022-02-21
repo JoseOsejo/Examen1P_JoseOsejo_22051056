@@ -14,8 +14,8 @@ public class PorAccidenteRadioactivo extends Persona
     private int edadAlMomentoAccidente;
     private String tipoAccidente;
 
-    public PorAccidenteRadioactivo(int edadAlMomentoAccidente, String tipoAccidente, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
-        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+    public PorAccidenteRadioactivo(int edadAlMomentoAccidente, String tipoAccidente, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica);
         this.edadAlMomentoAccidente = edadAlMomentoAccidente;
         this.tipoAccidente = tipoAccidente;
     }

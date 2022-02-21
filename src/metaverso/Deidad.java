@@ -15,11 +15,13 @@ public class Deidad extends Extraterrestre {
     private boolean tieneCreyentes;
     private String religion;
 
-    public Deidad(boolean tieneCreyentes, String religion, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
-        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+    public Deidad(boolean tieneCreyentes, String religion, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica);
         this.tieneCreyentes = tieneCreyentes;
         this.religion = religion;
     }
+
+   
 
     public boolean isTieneCreyentes() {
         return tieneCreyentes;

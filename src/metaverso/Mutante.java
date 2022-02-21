@@ -16,8 +16,8 @@ public class Mutante extends Persona
 
     private ArrayList<String> factoresMutantes;
 
-    public Mutante(ArrayList<String> factoresMutantes, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
-        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+    public Mutante(ArrayList<String> factoresMutantes, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica);
         this.factoresMutantes = factoresMutantes;
     }
 

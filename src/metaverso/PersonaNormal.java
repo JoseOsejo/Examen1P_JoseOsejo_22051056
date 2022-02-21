@@ -12,10 +12,11 @@ package metaverso;
 public class PersonaNormal extends Persona
 {
 
-    public PersonaNormal(String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
-        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+    public PersonaNormal(String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica);
     }
 
+   
     @Override
     public void finalChance(Persona p1, Persona p2) {
         

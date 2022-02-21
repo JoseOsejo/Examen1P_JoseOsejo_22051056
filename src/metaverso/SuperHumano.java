@@ -13,8 +13,8 @@ public class SuperHumano extends Persona
 {
     private String superPoder;
 
-    public SuperHumano(String superPoder, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica, boolean tieneEscuadron) {
-        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica, tieneEscuadron);
+    public SuperHumano(String superPoder, String nombre, String poder, String debilidad, String heroeVillano, int fuerza, int habilidadMental, int habilidadFisica) {
+        super(nombre, poder, debilidad, heroeVillano, fuerza, habilidadMental, habilidadFisica);
         this.superPoder = superPoder;
     }
 
@@ -39,7 +39,7 @@ public class SuperHumano extends Persona
     }
     
     
-    
+        
     
     
     

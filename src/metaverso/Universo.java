@@ -16,9 +16,9 @@ public class Universo
     private String nombre;
     private ArrayList<Escuadron>escaudrones;
 
-    public Universo(String nombre, ArrayList<Escuadron> escaudrones) {
+    public Universo(String nombre) {
         this.nombre = nombre;
-        this.escaudrones = escaudrones;
+        this.escaudrones = new ArrayList();
     }
 
     public String getNombre() {
